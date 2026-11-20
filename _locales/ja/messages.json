@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "購入履歴チェッカー for LCSC（非公式）",
+    "description": "拡張機能の名前"
+  },
+  "extDescription": {
+    "message": "LCSCの商品ページに、その部品を過去に購入した日付と数量を表示します。LCSCとは無関係の非公式拡張です。",
+    "description": "拡張機能の説明（132文字以内）"
+  },
+  "loading": {
+    "message": "購入履歴を確認中… ($CODE$)",
+    "placeholders": { "code": { "content": "$1", "example": "C2902339" } }
+  },
+  "needLogin": {
+    "message": "LCSCにログインすると購入履歴を表示できます"
+  },
+  "fetchError": {
+    "message": "購入履歴を取得できませんでした: $ERROR$",
+    "placeholders": { "error": { "content": "$1", "example": "HTTP 500" } }
+  },
+  "noHistory": {
+    "message": "この部品の購入履歴はありません"
+  },
+  "onlyExcluded": {
+    "message": "購入済みの注文はありません（未払い・キャンセルの注文のみ）"
+  },
+  "owned": {
+    "message": "✔ 購入済み：合計 $TOTAL$ 個（$COUNT$ 回）",
+    "placeholders": {
+      "total": { "content": "$1", "example": "75" },
+      "count": { "content": "$2", "example": "4" }
+    }
+  },
+  "ownedOnce": {
+    "message": "✔ 購入済み：合計 $TOTAL$ 個（1 回）",
+    "placeholders": { "total": { "content": "$1", "example": "50" } }
+  },
+  "qty": {
+    "message": "$QTY$ 個",
+    "placeholders": { "qty": { "content": "$1", "example": "50" } }
+  },
+  "colDate": { "message": "購入日" },
+  "colQty": { "message": "数量" },
+  "colPrice": { "message": "単価" },
+  "colOrder": { "message": "注文番号" },
+  "colStatus": { "message": "状態" },
+  "note": {
+    "message": "取り消し線＝キャンセル・期限切れ、斜体＝未払い（どちらも合計に含みません）"
+  },
+  "statusUnpaid": { "message": "未払い" },
+  "statusDelivered": { "message": "配達済み" },
+  "statusComplete": { "message": "完了" },
+  "statusShipped": { "message": "発送済み" },
+  "statusProcessing": { "message": "処理中" },
+  "statusPendingPayment": { "message": "支払い待ち" },
+  "statusCancelled": { "message": "キャンセル" },
+  "statusExpired": { "message": "期限切れ" }
+}

@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "Purchase History for LCSC (Unofficial)",
+    "description": "拡張機能の名前"
+  },
+  "extDescription": {
+    "message": "Shows on LCSC product pages whether you have bought the part before, with dates and quantities. Not affiliated with LCSC.",
+    "description": "拡張機能の説明（132文字以内）"
+  },
+  "loading": {
+    "message": "Checking purchase history… ($CODE$)",
+    "placeholders": { "code": { "content": "$1", "example": "C2902339" } }
+  },
+  "needLogin": {
+    "message": "Sign in to LCSC to see your purchase history"
+  },
+  "fetchError": {
+    "message": "Could not load purchase history: $ERROR$",
+    "placeholders": { "error": { "content": "$1", "example": "HTTP 500" } }
+  },
+  "noHistory": {
+    "message": "You have not bought this part"
+  },
+  "onlyExcluded": {
+    "message": "No completed purchases (only unpaid or cancelled orders)"
+  },
+  "owned": {
+    "message": "✔ Purchased: $TOTAL$ pcs in total ($COUNT$ orders)",
+    "placeholders": {
+      "total": { "content": "$1", "example": "75" },
+      "count": { "content": "$2", "example": "4" }
+    }
+  },
+  "ownedOnce": {
+    "message": "✔ Purchased: $TOTAL$ pcs in total (1 order)",
+    "placeholders": { "total": { "content": "$1", "example": "50" } }
+  },
+  "qty": {
+    "message": "$QTY$ pcs",
+    "placeholders": { "qty": { "content": "$1", "example": "50" } }
+  },
+  "colDate": { "message": "Date" },
+  "colQty": { "message": "Qty" },
+  "colPrice": { "message": "Unit price" },
+  "colOrder": { "message": "Order #" },
+  "colStatus": { "message": "Status" },
+  "note": {
+    "message": "Strikethrough = cancelled/expired, italic = unpaid (not included in the total)"
+  },
+  "statusUnpaid": { "message": "Unpaid" },
+  "statusDelivered": { "message": "Delivered" },
+  "statusComplete": { "message": "Complete" },
+  "statusShipped": { "message": "Shipped" },
+  "statusProcessing": { "message": "Processing" },
+  "statusPendingPayment": { "message": "Pending payment" },
+  "statusCancelled": { "message": "Cancelled" },
+  "statusExpired": { "message": "Expired" }
+}
